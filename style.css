@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+html{
+    box-sizing: content-box;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-image: url(images/coffee.jpg);
+     height: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-color: black;
+}
+ .mid-Sec{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 50px;
+    margin-left: 50px;
+} 
+.form-Dropdown{
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+.buttn-Submit:hover{
+    background-color: black;
+    width: 75px;
+    border-radius: 5px;
+    color: white;
+}
+.orderBox{
+    display: none;
+}
+.To-doList{
+    display: none;
+}
+
+.coffeeName{
+    position: absolute;
+    right: 500px;
+}
+.tableClass tr td{
+  
+  color: white;
+}

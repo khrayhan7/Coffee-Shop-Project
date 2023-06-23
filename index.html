@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    
+    
+    
+    <div style="border-right: 1px solid white; border-bottom: 1px solid white;" class="header-sec">
+    
+     
+        
+           
+            
+            <div style="position: relative;top: 10px;left: 25px; color: white;" class="logo-part">
+            <h4 style="font-family: 'PT Serif', serif;">Coffee Shop</h4></div>
+        
+        
+        <div style="font-family: 'PT Serif', serif;" class="container-fluid">
+            <div style="position: relative;left: 650px;bottom: 16px;" class="row">
+                <div style="width: 10%;border: none;color: white;" class="col-sm-3" >Home</div>
+                <div style="width: 10%;border: none;color: white;" class="col-sm-3" >About</div>
+                <div style="width: 10%;border: none;color: white;" class="col-sm-3" >Services</div>
+                 <div style="width: 10%;border: none;color: white;" class="col-sm-3" >Contact</div>
+
+              </div>
+
+
+        </div>
+
+        
+        
+       </div>
+
+       
+       <div class="mid-Sec">
+        <div class="box-div">
+
+            <h5 style="color: white;">Now you can feel the energy</h5>
+            <h1 style="color: white;">Start Your Day With <br> A Coffee </h1>
+            <div onclick="boxOrderNew()" id="button-Order" style="color: white; background-color: black; border: 2px solid rgb(131, 41, 41); font-size: 10px;width: 80px; height: 30px; text-align: center;padding-top: 5px;border-radius: 5px;">Order Now</div>
+            <!-- <div  class="box-img">
+                <img src="images/coffee-4.jpg" alt="" srcset="" height="350" width="400">
+            </div> -->
+        </div>
+
+        <div style="background-color: white;width: 400px;height: 400px;position: relative;bottom: 15px;left: 15px;" class="orderBox">
+
+          <div class="form-Dropdown">
+            <form class="coffee-list">
+            <label style="position: relative;bottom: 4px;font-size: 15px;right: 20px;" for="coffee's">Choose your Coffee:</label>
+            <select style="position: relative;right: 20px;width: 360px;height: 25px;font-size: 17px;text-align: center;" name="coffee's Names" id="nameOfCoffee's">
+                <option value="Espresso">Espresso</option>
+                <option value="Black Coffee">Black Coffee</option>
+                <option value="Mocha">Mocha</option>
+                <option value="Americano">Americano</option>
+                <option value="Cappuccino">Cappuccino</option>
+            </select>
+            </form>
+        
+
+      <div style="position: relative;top: 40px;" class="customer-Details">
+        <form >
+            <label style="position: relative;bottom: 1px;right: 17px;" for="f-Name">First Name:</label>
+            <input style="position: relative;top: 5px;width: 360px;right: 20px;" id="fName" type="text"><br>
+            <label style="position: relative;top: 30px;right: 17px;" for="l-Name">Last Name:</label>
+            <input style="position: relative;top: 35px;width: 360px;right: 20px;" id="lName" type="text">
+
+        </form>
+
+      </div>
+
+      <div style="position: relative;top: 150px;left: 120px;" class="buttn-Submit">
+        <div onclick="addTolist()" style="font-size: 16px;border: 1px solid black;width: 75px;text-align: center;border-radius: 5px;" class="order-Submit">Order</div>
+      </div>
+
+      </div>
+
+     
+
+
+        </div>
+
+      </div>
+
+      <div class="To-doList">
+        
+        <div style="width: 400px;position: relative;left: 735px;bottom: 180px;font-weight: bold;" class="todo-Details">
+          
+            <div style="float: left;margin-left: 5.33%;color: white; font-size: 10px;border: 1px solid white;">Coffee's Name</div>
+            <div style="float: left;margin-left: 11.33%;color: white;font-size: 10px;border: 1px solid white;">Customer's FirstName</div>
+            <div style="float: left;margin-left: 72.33%;color: white;font-size: 10px;position: relative;bottom: 14px;border: 1px solid white;">Customer's LastName</div>
+
+         </div>
+        
+
+         
+         <div class="divForBorder">
+         
+         <!-- <div style="width: 400px;position: relative;left: 750px;bottom: 170px;" class="customer-Info">
+            
+            <div style="float: left;margin-left: 7.33%;color: white; font-size: 10px;border-bottom: 1px solid white;">Cuppochino</div>
+            <div style="float: left;margin-left: 23.33%;color: white;font-size: 10px;border-bottom: 1px solid white;">John</div>
+            <div style="float: left;margin-left: 82.33%;color: white;font-size: 10px;position: relative;bottom: 14px;border-bottom: 1px solid white;">Cena</div>
+          
+          </div> -->
+        
+        </div>
+      
+
+    </div>
+
+    </div>
+
+</body>
+</html>
