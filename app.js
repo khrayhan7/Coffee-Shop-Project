@@ -51,12 +51,12 @@ function addTolist(){
 // `;
 
 wholeTodoStruc.innerHTML +=  `
-  <div style="width: 400px;position: relative;left: 783px;bottom: 170px;font-size:10px" class="customer-Info">
+  <div style="width: 400px;position: relative;left: 780px;bottom: 170px; class="customer-Info">
  <table class="tableClass">
  <tr id="tableData">
   <td  style="position:relative;right:25px;">${coffeName.value}</td>
- <td  style="position:relative;left:75px;">${firstNameInput.value}</td>
-  <td style="position:relative;left:205px;">${lastNameInput.value}</td>
+ <td  style="position:relative;left:70px;">${firstNameInput.value}</td>
+  <td style="position:relative;left:175px;">${lastNameInput.value}</td>
  </tr>
  </table>
  </div>
